@@ -1,0 +1,84 @@
+/* team */
+
+.team{
+    padding-block: 6.25rem;
+    background-color: var(--gray);
+}
+
+.team-card{
+    margin-bottom: .625rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.team .content-part{
+    background-color: #5B5B5B;
+    border-radius: inherit;
+    padding: 1.5625rem;
+}
+
+.team .content-part h5{
+    margin-bottom: .3125rem;
+    font-size: 1.5625rem;
+    line-height: 1.75rem;
+}
+
+.team .content-part h6{
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+}
+
+.team .team-card .img-part img{
+    transition: 0.4s;
+}
+
+.team .team-card .img-part:hover img{
+    scale: 1.2;
+}
+
+.team-card .overlay{
+    background-color: rgba(255, 255, 255, 0.95);
+    inset: 5px;
+    transform: rotateY(180deg) scale(0.5);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.team .team-card:hover .overlay{
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+.team-card .overlay ul{
+    margin-bottom: .625rem;
+    position: relative;
+    top: 175px;
+    margin-left: -0.3125rem;
+    gap: 14.5px;
+}
+
+.team-card .overlay ul li{
+    width: 40px;
+    height: 40px;
+    padding-inline: .3125rem;
+    background-color: #000;
+    border: 1px solid #000;
+    transition: all 0.2s;
+} 
+
+.team-card .overlay ul li i{
+    font-size: 20px;
+    color: #FFF;
+    transition: all 0.2s;
+}
+
+.team-card .overlay ul li:hover{
+    background-color: #FFF;
+}
+
+.team-card .overlay ul li:hover i{
+    color: black;
+}
+
+.team .row{
+    padding-top: 5%;
+}

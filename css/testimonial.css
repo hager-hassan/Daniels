@@ -1,0 +1,32 @@
+/* testimonial */
+.testimonial{
+    background-color: var(--gray);
+    padding-block: 6.25rem;
+}
+
+.testimonial-image{
+    width: 90px;
+    height: 90px;
+}
+
+.testimonial-content p{
+    word-spacing: 2px;
+    color: var(--secondary-color);
+    font-size: .9375rem;
+    margin-top: 15px;
+}
+
+.testimonial-content h6{
+    margin-top: 1.875rem;
+    margin-bottom: .3125rem;
+    color: var(--main-color);
+    line-height: 1.125rem;
+}
+
+.testimonial-content span{
+    font-size: .75rem;
+    line-height: 1.0625rem;
+    color: rgb(136, 136, 136);
+    display: inline-block;
+    margin-bottom: 1.875rem;
+}

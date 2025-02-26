@@ -1,0 +1,24 @@
+/* counter */
+
+.counter{
+    padding-top: 6.25rem;
+    padding-bottom: 4.375rem;
+}
+
+.counter .icon i{
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+}
+
+.counter-content h3{
+    font-size: 1.875rem;
+    line-height: 2.0625rem;
+    font-weight: 900;
+    margin-block: .9375rem;
+}
+
+.counter-content span{
+    font-size: .9375rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.875rem;
+}

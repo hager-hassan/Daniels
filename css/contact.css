@@ -1,0 +1,74 @@
+.contact{
+    padding-block: 6.25rem;
+}
+
+.contact .item{
+    margin-bottom: 1.875rem;
+}
+
+.contact .item .icon{
+    width: 60px;
+    height: 60px;
+    background-color: var(--gray);
+    margin-bottom: .9375rem !important;
+    transition: all 0.5s;
+}
+
+.contact .item h6{
+    color: var(--main-color);
+    line-height: 18px;
+    margin-bottom: .625rem;
+}
+
+.contact .item p{
+    color: var(--secondary-color);
+    font-size: .9375rem;
+}
+
+.contact .icon i{
+    font-size: 25px;
+    line-height: 25px;
+    color: var(--main-color);
+    transition: all 0.5s;
+}
+
+.contact .item:hover .icon{
+    background-color: #1c1c1c;
+}
+
+.contact .item:hover .icon i{
+    color: var(--gray);
+}
+
+.contact .upper-part{
+    margin-bottom: 3.125rem;
+}
+
+.form-input{
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 15px;
+    color: var(--main-color);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    outline: none;
+}
+
+.contact .bottom-part .message{
+    height: calc(8.75rem + 1.25rem);
+}
+
+.contact .form-btn{
+    padding: .625rem 2.5rem;
+    background-color: #1c1c1c;
+    color: #eee;
+    font-size: .8125rem;
+    line-height: 1.1875rem;
+    border: 1px solid #1c1c1c;
+    transition: all 0.5s;
+}
+
+.contact .form-btn:hover{
+    background-color: transparent;
+    color: var(--main-color);
+}

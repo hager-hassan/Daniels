@@ -1,0 +1,124 @@
+/* about */
+
+.about{
+    padding-top: 6.25rem;
+    padding-bottom: 4.375rem;
+}
+
+.about-img{
+    padding-left: 25px;
+    margin-bottom: 5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.about-img::after{
+    content: '';
+    height: 80%;
+    width: 80%;
+    background-image: url('..\\images\\dots.png');
+    position: absolute;
+    left: 0;
+    bottom: -33px;
+    z-index: -1;
+}
+
+.about .section-title h2{
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 2.0625rem;
+}
+
+.about-content{
+    margin-bottom: 1.875rem;
+}
+
+.about .section-title span{
+    margin-bottom: 1.25rem;
+    margin-top: .625rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(153, 153, 153);
+    letter-spacing: 2px;
+}
+
+.about-content p{
+    font-size: .9375rem;
+    color: var(--secondary-color);
+}
+
+.skills{
+    margin-top: 1.875rem;
+}
+
+.about .progress{
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    height: 1.5188rem;
+    border-radius: 5px;
+}
+
+.about .progress-bar{
+    padding: .3125rem .625rem;
+    background-color: #1C1C1C;
+    border-radius: 5px;
+}
+
+.about .progress .content h6{
+    line-height: .875rem;
+    margin: 0;
+}
+
+.about .progress .content > :first-child{
+    font-size: .8125rem;
+}
+
+.about .progress .content > :last-child{
+    font-size: .6875rem;
+    font-weight: 400;
+}
+
+.about .progress .content{
+    left: .625rem;
+    top: .375rem;
+}
+
+.about .web-design .content{
+    width: calc(95% - 1.25rem);
+}
+
+.about .branding .content{
+    width: calc(80% - 1.25rem);
+}
+
+.about .development .content{
+    width: calc(90% - 1.25rem);
+}
+
+.about .skills > div{
+    margin-bottom: 1.875rem;
+}
+
+.about .buttons button{
+    padding: .625rem 1.875rem;
+    margin-top: 1.25rem;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: .8125rem;
+    line-height: 1.1875rem;
+    transition: all 0.5s;
+}
+
+.about .buttons .down-btn ,
+.about .buttons .contact-btn:hover
+{
+    color: rgb(238, 238, 238);
+    background-color: #1C1C1C;
+}
+
+.about .buttons .down-btn:hover ,
+.about .buttons .contact-btn
+{
+    color: var(--main-color);
+    background-color: transparent;
+}

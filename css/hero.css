@@ -1,0 +1,49 @@
+/* hero */
+
+.hero{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)) , url('..\\images\\hero-bg.jpg');
+    background-size: cover;
+    background-position: 0px 0px;
+}
+
+.hero-content{
+    margin-top: 3.125rem;
+}
+
+.hero h5{
+    margin-bottom: .625rem;
+    font-size: 3.125rem;
+    line-height: 3.4375rem;
+    font-weight: 800;
+}
+
+.hero h1{
+    line-height: 2.25rem;
+    font-weight: 200;
+}
+
+.hero .typed::after{
+    content: '';
+    width: 2px;
+    height: 94%;
+    background-color: #aebcb9;
+    position: absolute;
+    right: -10px;
+    bottom: 3px;
+}
+
+.hero ul{
+    margin-top: 30px;
+    padding: 0;
+}
+
+.hero ul li{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero ul li a i{
+    font-size: .875rem;
+}
